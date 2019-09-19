@@ -1,0 +1,20 @@
+{
+  "name": "news-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-modules --require appmetrics-dash/attach index.js",
+    "test": "node  --experimental-modules test.js",
+    "test_clinic": "clinic doctor -- node --experimental-modules index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "appmetrics-dash": "^5.2.0",
+    "loadtest": "^3.0.8",
+    "node-fetch": "^2.6.0",
+    "xml-js": "^1.6.11"
+  }
+}
