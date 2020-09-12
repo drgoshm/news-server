@@ -14,7 +14,7 @@
   "dependencies": {
     "appmetrics-dash": "^5.2.0",
     "loadtest": "^3.0.8",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "xml-js": "^1.6.11"
   }
 }
